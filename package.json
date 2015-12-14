@@ -1,0 +1,33 @@
+{
+  "name": "deletedirectoriesusingnode",
+  "version": "1.0.0",
+  "description": "Delete directories specified in json file using node",
+  "main": "bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deletedirs": "./bin.js"
+  },
+   "files": [
+    "./directoriesToDelete.json"
+   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markquinn12/deleteDirectoriesUsingNode.git"
+  },
+  "keywords": [
+    "node",
+    "rimraf",
+    "markquinn12"
+  ],
+  "author": "Mark Quinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markquinn12/deleteDirectoriesUsingNode/issues"
+  },
+  "homepage": "https://github.com/markquinn12/deleteDirectoriesUsingNode#readme",
+  "dependencies": {
+    "rimraf": "^2.4.4"
+  }
+}
