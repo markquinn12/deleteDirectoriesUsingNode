@@ -2,7 +2,7 @@
   "name": "deletedirectoriesusingnode",
   "version": "1.0.0",
   "description": "Delete directories specified in json file using node",
-  "main": "bin.js",
+  "main": "deleteDirs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "deletedirs": "./bin.js"
   },
    "files": [
-    "./directoriesToDelete.json"
+    "directoriesToDelete.json"
    ],
   "repository": {
     "type": "git",
