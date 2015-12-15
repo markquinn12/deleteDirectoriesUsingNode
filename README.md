@@ -42,8 +42,7 @@ The options are very flexible and each path can be tailored to suit our needs.
 - Once installed locate the directoriesToDelete.json file. On my machine this is located at: C:\Users\mark\AppData\Roaming\npm\node_modules\deletedirectoriesusingnode
 - Edit the [directoriesToDelete.json](directoriesToDelete.json) file remembering to follow the rules above.
 - Open the command prompt anywhere
-- Run the following command.
-deletedirs
+- Run the following command: deletedirs
 - You will then see some output.
 - Done!
 
