@@ -14,7 +14,7 @@ C:\Program Files (x86)\Git\cmd;
 ##Utility installation
 Run the below command to install globally. This will install the files checked into this project on GITHUB and allow us to run the utility using the keyword: deletedirs
 
-npm install markquinn12/readAndOuputJsonWithNode -g
+npm install markquinn12/deleteDirectoriesUsingNode -g
 
 ##Directory/Path explaination
 We can save as many directories as we need in the [directoriesToDelete.json](directoriesToDelete.json) file. 
