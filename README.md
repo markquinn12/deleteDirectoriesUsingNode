@@ -46,5 +46,7 @@ The options are very flexible and each path can be tailored to suit our needs.
 - You will then see some output.
 - Done!
 
+Just keep a shortcut to  [directoriesToDelete.json](directoriesToDelete.json) somewhere accessible so you can edit the file quickly. I can quickly open the file using a hotkey which I have mapped using autohotkey!
+
 **Note:** There is no confirmation before a deletion takes place so please be careful when specifying directories paths to delete. Depending on your usage, the utility will delete everything below the directory specified so caution should be taken!
 
