@@ -4,9 +4,9 @@ Delete a list of directories/paths passed from a json file using NODE
 ####Pre-requisites
 You will need to install Node to run the utility and also GIT to be able to download from my repository. I use [chocolatey](https://chocolatey.org/) where available:
 
-choco install nodejs.install
+`choco install nodejs.install`
 
-choco install git.install
+`choco install git.install`
 
 Git will also need to be added to the env PATH of your machine. For my machine I added the following directory to the PATH:
 C:\Program Files (x86)\Git\cmd;
@@ -14,7 +14,7 @@ C:\Program Files (x86)\Git\cmd;
 ##Utility installation
 Run the below command to install globally. This will install the files checked into this project on GITHUB and allow us to run the utility using the keyword: deletedirs
 
-npm install markquinn12/deleteDirectoriesUsingNode -g
+`npm install markquinn12/deleteDirectoriesUsingNode -g`
 
 ##Directory/Path explaination
 We can save as many directories as we need in the [directoriesToDelete.json](directoriesToDelete.json) file. 
@@ -42,7 +42,7 @@ The options are very flexible and each path can be tailored to suit our needs.
 - Once installed locate the directoriesToDelete.json file. On my machine this is located at: C:\Users\mark\AppData\Roaming\npm\node_modules\deletedirectoriesusingnode
 - Edit the [directoriesToDelete.json](directoriesToDelete.json) file remembering to follow the rules above.
 - Open the command prompt anywhere
-- Run the following command: deletedirs
+- Run the following command: `deletedirs`
 - You will then see some output.
 - Done!
 
