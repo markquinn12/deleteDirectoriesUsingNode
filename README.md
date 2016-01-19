@@ -1,15 +1,15 @@
 # deleteDirectoriesUsingNode
-Delete a list of directories/paths passed from a json file using NODE
+Delete a list of directories/paths passed from a json file using Node.js
 
 ####Pre-requisites
-You will need to install Node to run the utility and also GIT to be able to download from my repository. I use [chocolatey](https://chocolatey.org/) where available:
+You will need to install Node.js to run the utility and also GIT to be able to download from my repository. I use [chocolatey](https://chocolatey.org/) where available:
 
 `choco install nodejs.install`
 
 `choco install git.install`
 
 Git will also need to be added to the env PATH of your machine. For my machine I added the following directory to the PATH:
-C:\Program Files (x86)\Git\cmd;
+`C:\Program Files (x86)\Git\cmd;`
 
 ##Utility installation
 Run the below command to install globally. This will install the files checked into this project on GITHUB and allow us to run the utility using the keyword: deletedirs
